@@ -1,0 +1,36 @@
+.mainT {
+    display: flex;
+    background-color: lightgray;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+    font-weight: lighter !important;
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainT div:nth-of-type(2) {
+    /* width:100% ; */
+    /* float: right; */
+    margin-left: 20%;
+   justify-content: center;
+}
+
+.mainT div:nth-of-type(2) p {
+    color: red;
+}
+
+.mainT div:nth-of-type(1) p {
+    color: green;
+}
+
+.ce {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+#list li {
+    list-style: none;
+    font-size: large;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    width: 50%;
+}
+
+#list {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.minus {
+    border-right: red 2px solid;
+}
+
+.plus {
+    border-right: green 2px solid;
+}
+
+li {
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+}

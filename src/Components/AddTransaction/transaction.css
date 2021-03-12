@@ -1,0 +1,18 @@
+button {
+    margin-top: 5%;
+    width: 100%;
+    background-color: lightblue;
+    border: none;
+    height: 2rem;
+}
+
+form {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+form div input {
+    width: 100%;
+    text-align: center;
+}
